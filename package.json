@@ -1,6 +1,6 @@
 {
   "name": "get-pixels",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "description": "Reads the pixels of an image as an ndarray",
   "main": "node-pixels.js",
   "directories": {
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/scijs/get-pixels.git"
+    "url": "git://github.com/johnstan/get-pixels.git"
   },
   "keywords": [
     "ndarray",
@@ -55,7 +55,7 @@
     "browserify"
   ],
   "browser": "dom-pixels.js",
-  "author": "Mikola Lysenko",
+  "author": "John Staunton (Original: Mikola Lysenko)",
   "license": "MIT",
   "readmeFilename": "README.md",
   "gitHead": "380bbda330666e4a4066c48ef5a42770d13bcd5c"

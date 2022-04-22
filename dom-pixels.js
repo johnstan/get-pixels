@@ -117,7 +117,7 @@ module.exports = function getPixels(url, type, cb) {
     cb = type
     type = ''
   }
-  var ext = path.extname(url)
+  var ext = typeof url === "string" ? path.extname(url) : null;
   switch(type || ext.toUpperCase()) {
     case '.GIF':
       httpGif(url, cb)
